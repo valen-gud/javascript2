@@ -1,6 +1,6 @@
 //crear un total
 let total = 0;
-alert("Bienvenido a Tina's Coffe");
+alert("Bienvenido a Presto Coffee Shop");
 // menú de opciones
 function menu(){
     let eleccion = prompt("elija elementos del menu del 1 al 9 \n 1) Latte $2500 \n 2) Café con leche $3000 \n 3) Capuccino $3500 \n 4) Café americano $2500 \n 5) Medialunas u. $1000 \n 6) Scon de queso $3100 \n 7) Medialuna J y Q $1500\n 8) Tostado J y Q $3500\n 9) Terminar compra");

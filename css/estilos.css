@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color:  var(--color-principal);
+    .navbar{
+        .container-fluid{
+            .collapse.navbar-collapse{
+                justify-content: end;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+main{
+    background-color: #eeeadd;
+}
+
+.seccionTitulo{
+    height: 400px;
+    background: linear-gradient(#2f2f2f32, #2f2f2f53),url(../assets/img/fondo16.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    .tituloh1{
+        color:  #f5f5db ;
+        padding-top: 250px;
+        padding-left: 20px;
+    }
+}
+
+
+:root {
+    --color-fuente: #1e1e1e;
+    --color-principal: #ece4ce;
+    --color-carrito: #d2c8a9;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#container-general {
+    display: flex;
+    flex-direction: row;
+}
+.tituloh2{
+    text-align: center;
+    color: var(--color-fuente);
+    
+}
+#section-articulos {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.cardArticulos {
+    width: 40%;
+    margin: 20px;
+    text-align: center;
+}
+
+.font {
+    font-size: 15px;
+    font-family: oswald, sans-serif;
+}
+
+.img-container {
+    overflow: hidden;
+    position: relative;
+    .imgArticulo {
+        box-shadow: 4px 4px 5px #383837;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+    }
+
+}
+
+.boton {
+    border: 1px solid #383837;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: oswald, sans-serif;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    align-self: center;
+    color: --color-fuente;
+    background-color: var(--color-principal);
+    &:hover{
+        color: #3d3d3d;
+    }
+}
+
+.infoArticulo {
+    display: flex;
+    flex-direction: column;
+}
+
+#section-carrito {
+    font-family: oswald, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--color-carrito);
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    color: var(--color-blanco);
+}
+
+#section-carrito div {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+footer {
+    .seccionFooter{
+        height: 100px;
+        background-color: var(--color-principal);
+        .tituloFooter{
+            text-align: end;
+            padding-top: 65px;
+            color: #4a4949;
+            margin: 0;
+        }
+    }
+    
+}
